@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body class="fullscreen">
+    {% include header.html %}
+    <div class='animated fadeIn'>
+      {{ content }}
+    </div>
+    <script>
+      var nav = responsiveNav(".nav-collapse", {
+        label: "☰"
+        }
+      );
+    </script>
+  </body>
+</html>

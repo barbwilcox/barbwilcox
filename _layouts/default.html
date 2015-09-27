@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+    <div class='cf animated fadeIn'>
+      {{ content }}
+    </div>
+    {% include footer.html %}
+    <script>
+      var nav = responsiveNav(".nav-collapse", {
+        label: "☰"
+        }
+      );
+    </script>
+  </body>
+</html>

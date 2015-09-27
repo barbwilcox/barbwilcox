@@ -1,0 +1,13 @@
+# Site settings
+title: Two & Seven Coffee Co
+email: cpeak66@gmail.com
+description: "Two & Seven Coffee Company"
+baseurl: ""
+url: "http://yourdomain.com"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+sass:
+  sass_dir: /css/_sass

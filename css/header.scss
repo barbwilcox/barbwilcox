@@ -1,0 +1,106 @@
+---
+---
+@import 'mixins';
+
+.fullscreen header {
+  .logo {
+    display: none;
+  }
+  .nav-toggle {
+    color: white;
+    text-shadow: 0 0 25px $charcoal;
+  }
+  nav {
+    background: rgba(0,0,0,0.25);
+  }
+  nav li a {
+    border-color: rgba(255,255,255,0.5);
+    color: white;
+    text-shadow: 0 0 25px $charcoal;
+  }
+}
+
+
+header {
+  margin-bottom: 4em;
+  div {
+    overflow: hidden;
+    .logo {
+      display: block;
+      float: left;
+      padding: 10px;
+      width: 170px;
+    }
+    .nav-toggle {
+      color: black;
+      float: right;
+      font-size: 2em;
+      margin: 20px 10px 0 0;
+    }
+  }
+}
+
+nav {
+  background: rgba(255,255,255,0.5);
+  overflow: hidden;
+  width: 100%;
+  li {
+    font-size: 0.875em;
+    font-weight: 100;
+    display: block;
+    float: left;
+    text-transform: uppercase;
+    a {
+      border-bottom: 1px solid #ddd;
+      display: block;
+      color: #a1a1a1;
+      padding: 20px 10px;
+      &.active {
+        color: $red;
+        font-weight: 400;
+      }
+    }
+    &:last-child a {
+      border: none;
+    }
+  }
+  li.logo {
+    max-width: 120px;
+    a {
+      padding-top: 12px;
+    }
+  }
+}
+
+@media screen and (min-width: 40em) {
+  header {
+    div {
+      margin: 0 auto 20px auto;
+      padding-top: 10px;
+      max-width: $site-width;
+      width: 100%;
+      .logo {
+        padding-left: 20px;
+      }
+    }
+  }
+  nav {
+    background: none !important;
+    float: right;
+    margin-left: 2em;
+    width: auto;
+    li {
+      float: left;
+      display: block;
+      width: auto !important;
+      a {
+        border: none;
+        font-size: 1.25em;
+        margin: 20px 20px 0 0;
+        &:hover {
+          color: $brown-coffee;
+        }
+      }
+    }
+  }
+}
