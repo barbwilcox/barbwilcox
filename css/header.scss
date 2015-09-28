@@ -76,7 +76,7 @@ nav {
   header {
     div {
       margin: 0 auto 20px auto;
-      padding-top: 10px;
+      padding-top: 3em;
       max-width: $site-width;
       width: 100%;
       .logo {
@@ -95,7 +95,7 @@ nav {
       width: auto !important;
       a {
         border: none;
-        font-size: 1.25em;
+        font-size: 1.1em;
         margin: 20px 20px 0 0;
         &:hover {
           color: $brown-coffee;

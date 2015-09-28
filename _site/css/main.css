@@ -14,14 +14,14 @@ html {
 body {
   background: #fff;
   color: #999999;
-  font-family: 'Proxima Nova', 'Muli', serif;
+  font-family: "Open Sans";
   font-size: 16px;
   font-weight: 300;
   line-height: 1.25; }
 
 h1, h2, h3, h4, h5, h6 {
   color: #000000;
-  font-family: "Abril Fatface", serif;
+  font-family: "Abril Fatface";
   margin-bottom: 1em; }
 
 p {
@@ -87,7 +87,7 @@ img {
 .landing-brand {
   display: block;
   margin: 10% auto;
-  width: 60%; }
+  width: 50%; }
 
 #hours-and-location {
   color: white;
@@ -99,6 +99,9 @@ img {
   .landing-brand {
     margin: 2% auto 6% auto;
     width: 30%; } }
+@media screen and (min-width: 600px) {
+  #our-story {
+    padding-right: 2em; } }
 #names {
   background: #19222d;
   padding: 60px 20px; }

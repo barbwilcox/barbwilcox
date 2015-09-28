@@ -54,7 +54,7 @@ nav {
 @media screen and (min-width: 40em) {
   header div {
     margin: 0 auto 20px auto;
-    padding-top: 10px;
+    padding-top: 3em;
     max-width: 1100px;
     width: 100%; }
     header div .logo {
@@ -71,7 +71,7 @@ nav {
       width: auto !important; }
       nav li a {
         border: none;
-        font-size: 1.25em;
+        font-size: 1.1em;
         margin: 20px 20px 0 0; }
         nav li a:hover {
           color: #4C2C16; } }
