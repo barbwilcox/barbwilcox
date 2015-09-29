@@ -155,6 +155,17 @@ img {
 
 // -------------------------------- Contact Form
 
+.map {
+  display: block;
+  margin: 0 auto 2em auto;
+  width: 80%;
+}
+@media screen and (min-width: 600px) {
+  .map {
+    width: 100%;
+  }
+}
+
 form {
   input,
   textarea {

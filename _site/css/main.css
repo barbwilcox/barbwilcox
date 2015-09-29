@@ -109,6 +109,14 @@ img {
     display: block;
     margin: 0 auto; }
 
+.map {
+  display: block;
+  margin: 0 auto 2em auto;
+  width: 80%; }
+
+@media screen and (min-width: 600px) {
+  .map {
+    width: 100%; } }
 form input,
 form textarea {
   border: 1px solid #ccc;
